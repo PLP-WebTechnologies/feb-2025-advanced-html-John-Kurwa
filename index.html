@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 2</title>
+    <style>
+        body {
+            font-family: 'Time New Roman';
+            margin: 30px;
+        }
+        table, th, td {
+            border: 2px solid #000;
+            border-collapse: collapse;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to week 2</h1>
+    </header>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Ordered List with Roman Numerals</h2>
+        <ol type="I">
+            <li>BMW</li>
+            <li>Nissan GTR</li>
+            <li>GMC Truck</li>
+            <li>Audi</li>
+            <li>McLarren</li>
+        </ol>
+    </section>
+
+    <!-- External Image from Pexels -->
+    <section>
+        <h2>External Image</h2>
+        <img src="https://images.pexels.com/photos/31147777/pexels-photo-31147777/free-photo-of-iconic-big-ben-and-red-buses-in-london.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="vehicles along a beautiful street" width="500">
+    </section>
+
+    <!-- Table -->
+    <section>
+        <h2>Contact Information</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>Simon Peter</td>
+                <td>112</td>
+                <td>(237) 123-4567</td>
+                <td>thedisciplepeter@example.com</td>
+            </tr>
+            <tr>
+                <td>2Pac Shakur</td>
+                <td>765 Nashville</td>
+                <td>(255) 234-5678</td>
+                <td>shakurpac2@example.com</td>
+            </tr>
+            <tr>
+                <td>Chandler Mike</td>
+                <td>91-7862</td>
+                <td>(256) 345-6789</td>
+                <td>chamikeer@example.com</td>
+            </tr>
+            <tr>
+                <td>Lange Mdoe</td>
+                <td>66-80101</td>
+                <td>(913) 456-7890</td>
+                <td>laneodm@example.com</td>
+            </tr>
+            <tr>
+                <td>Brown Gatanga</td>
+                <td>141-80100</td>
+                <td>(323) 567-8901</td>
+                <td>brogwtanga@example.com</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="POST">
+            <!-- Name -->
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+            <!-- Email -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <!-- Password -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+            <!-- Date -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <!-- Dropdown -->
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="us">United States</option>
+                <option value="ke">Kenya</option>
+                <option value="uk">United Kingdom</option>
+                <option value="ca">Canada</option>
+                <option value="in">India</option>
+            </select><br><br>
+
+            <!-- Radio Buttons -->
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+
+            <!-- Checkboxes -->
+            <label>Preferences:</label><br>
+            <input type="checkbox" id="news" name="preferences" value="news">
+            <label for="news">Subscribe to newsletter</label><br>
+            <input type="checkbox" id="updates" name="preferences" value="updates">
+            <label for="updates">Receive updates</label><br><br>
+
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Your Company. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
